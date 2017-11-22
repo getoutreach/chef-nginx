@@ -3,9 +3,9 @@
 # Recipe:: debug
 #
 
-include_recipe "nginx"
+include_recipe "nnginx"
 
 package "nginx-debug"
 
-include_recipe "nginx::configuration"
-include_recipe "nginx::service"
+include_recipe "nnginx::configuration"
+include_recipe "nnginx::service"
